@@ -1,0 +1,96 @@
+<!---Ejercicio 4: Sitio web de noticias 
+Objetivo: Crear una página web de noticias con diferentes secciones y artículos, utilizando etiquetas para organizar el contenido. 
+Contenido: 
+Encabezado: Logotipo del sitio web, nombre. 
+Navegación: Enlaces a las diferentes secciones de noticias (nacional, internacional, deportes, economía). 
+Sección principal: 
+Section: Artículos destacados de la sección seleccionada. 
+Article: Cada artículo con título, imagen, resumen y enlace a la noticia completa. 
+Aside: Publicidad o banners informativos. 
+Pie de página: Información de contacto, política de privacidad y términos de uso. 
+Etiquetas a utilizar: header, nav, main, section, article, aside, figure, figcaption, footer --->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Noticias Online</title>
+</head>
+<body>
+    <header>
+        <img src="imgs/logo-noticias.jpg" alt="Logotipo" width="100">
+        <h1>Noticias al Día</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#nacional">Nacional</a></li>
+            <li><a href="#internacional">Internacional</a></li>
+            <li><a href="#deportes">Deportes</a></li>
+            <li><a href="#economia">Economía</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="nacional">
+            <h2>Nacional</h2>
+            <article>
+                <h3>Nuevo plan de educación</h3>
+                <figure>
+                    <img src="imgs/escuela.jpg" alt="Escuela" width="250">
+                    <figcaption>Alumnos sin clases</figcaption>
+                </figure>
+                <p>El gobierno anunció una reforma educativa con menos implicancia en las infancias.</p>
+            </article>
+        </section>
+        <section id="internacional">
+    <h2>Internacional</h2>
+    <article>
+        <h3>Acuerdo climático en la ONU</h3>
+        <figure>
+            <img src="imgs/onu.png" alt="Asamblea de la ONU" width="250">
+            <figcaption>Debates sobre el cambio climático</figcaption>
+        </figure>
+        <p>Representantes de más de 100 países firmaron un acuerdo para reducir las emisiones de carbono en los próximos diez años.</p>
+    </article>
+</section>
+
+<section id="economia">
+    <h2>Economía</h2>
+    <article>
+        <h3>Inflación en descenso</h3>
+        <figure>
+            <img src="imgs/economia.jpg" alt="Gráfico económico" width="250">
+            <figcaption>Indicadores financieros</figcaption>
+        </figure>
+        <p>El último informe del Banco Central muestra una baja en los índices de inflación luego de varios meses de crecimiento.</p>
+    </article>
+</section>
+
+<section id="deportes">
+    <h2>Deportes</h2>
+    <article>
+        <h3>Victoria en la Copa</h3>
+        <figure>
+            <img src="imgs/futbol.jpg" alt="Jugador de fútbol" width="250">
+            <figcaption>Celebración de la victoria</figcaption>
+        </figure>
+        <p>El equipo local consiguió una importante victoria que lo acerca a la final de la Copa Nacional.</p>
+    </article>
+</section>
+
+
+        <aside>
+            <h2>Publicidad</h2>
+            <p>¡Suscríbete para recibir noticias exclusivas!</p>
+            <img src="imgs/banner.jpg" alt="Publicidad" width="200">
+        </aside>
+    </main>
+
+    <footer>
+        <p>Contacto: contacto@noticias.com</p>
+        <p>Política de privacidad | Términos de uso</p>
+        <p>Primer ejercicio <a href="Página_web_personal_básica.html">Página web personal básica</a>
+    </footer>
+</body>
+</html>

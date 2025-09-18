@@ -1,0 +1,11 @@
+Business: portfolio of software works
+Keywords: tecnologic, advanced, clever
+Main Font: Lexend Deca
+Body Font: IBM Plex Sans
+Font Justification: Lexend Deca is a great option as main font because is designed to improve readability, and it reflects the portfolio's focus on advanced technology. IBM Plex Sans, chosen as the body font, offers a tech-savvy and clever feel, ensuring that text is clear and accessible.
+Primary Color: #4CAF50
+Secondary Color: #2196F3
+Accent Color: #FFC107
+Palette Justification: The primary color, a vibrant green, symbolizes innovation and growth. The secondary color, a classic blue, adds a tech-forward and professional feel. The accent color, a bright yellow, highlights key elements with a clever and attention-grabbing flair. This palette reflects the portfolio's technological and advanced qualities.
+Brand Tagline: Code that speaks innovation
+Picture: https://www.pexels.com/photo/code-projected-over-woman-3861969/

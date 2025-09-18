@@ -1,0 +1,59 @@
+<!--Ejercicio 1: Página web personal básica 
+Objetivo: Crear una página web personal simple con encabezado, navegación, sección principal y pie de página. 
+Contenido: 
+Encabezado: Logotipo, nombre y breve descripción. 
+Navegación: Enlaces a diferentes secciones de la página (inicio, sobre mí, proyectos, contacto). 
+Sección principal: Un artículo con información sobre ti, tus habilidades e intereses. 
+Pie de página: Información de contacto, derechos de autor y redes sociales. 
+Etiquetas a utilizar: header, nav, main, article, section, footer -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi página personal</title>
+</head>
+<body>
+    <header>
+        <img src="imgs/logo.png" alt="Logotipo" width="200">
+        <h1>Vera Toral</h1>
+        <p>Apasionada por la tecnología y el aprendizaje continuo.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Soy estudiante de programación y me gusta crear proyectos web.</p>
+        </article>
+
+        <article id="proyectos">
+            <h2>Proyectos</h2>
+            <section>
+                <h3>Proyecto UNO en Python</h3>
+                <p>Juego de cartas con lógica programada desde cero.</p>
+            </section>
+        </article>
+        <article id="contacto">
+            <h2>Contactame</h2>
+            <section>
+                <p>Contacto: vtoral@uade.edu.ar</p>
+                <p>Sígueme en <a href="https://www.instagram.com/veratello_/">Instagram</a> | <a href="https://www.linkedin.com/in/vera-toral-tello/">LinkedIn</a></p>
+                <p>Siguiente ejercicio <a href="Blog_de_viajes.html" target="_blank">Blog de viajes</a>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vera Toral</p>
+    </footer>
+</body>
+</html>
